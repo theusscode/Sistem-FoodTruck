@@ -1,0 +1,28 @@
+unit pgprincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.MultiView, FMX.Objects;
+
+type
+  TForm_tl1 = class(TForm)
+    MultiView: TMultiView;
+    StyleBook1: TStyleBook;
+    Rectanglebar: TRectangle;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_tl1: TForm_tl1;
+
+implementation
+
+{$R *.fmx}
+
+end.

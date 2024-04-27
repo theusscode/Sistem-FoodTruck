@@ -1,0 +1,103 @@
+object Form_tl1: TForm_tl1
+  Left = 0
+  Top = 0
+  ClientHeight = 552
+  ClientWidth = 946
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = claAqua
+      Offset = 0.406832307577133200
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.633974611759185800
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.366025418043136600
+  Fill.Gradient.StopPosition.Y = 0.000000009855696703
+  StyleBook = StyleBook1
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object MultiView: TMultiView
+    BorderOptions.Visible = False
+    MasterButton = Btn_master
+    Mode = NavigationPane
+    NavigationPaneOptions.CollapsedWidth = 73.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 552.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'MultiViewcustom'
+    TabOrder = 0
+    object Rectanglebar: TRectangle
+      Align = Contents
+      Fill.Color = xFFEDEDED
+      Opacity = 0.300000011920929000
+      Size.Width = 73.000000000000000000
+      Size.Height = 552.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claSilver
+      Visible = False
+    end
+    object Btn_master: TSpeedButton
+      Align = Top
+      Margins.Top = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Btn_master'
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Top
+      Margins.Top = 30.000000000000000000
+      Position.Y = 95.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'SpeedButton2'
+    end
+    object SpeedButton3: TSpeedButton
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 165.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'SpeedButton3'
+    end
+    object SpeedButton4: TSpeedButton
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 235.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'SpeedButton4'
+    end
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end
+      item
+        Platform = 'Windows 10 Desktop'
+        ResourcesBin = {
+          464D585F5354594C4520322E3501060F4D756C746956696577637573746F6D03
+          E80000545046300A5452656374616E676C6500095374796C654E616D65060F4D
+          756C746956696577637573746F6D05416C69676E070643656E7465720A46696C
+          6C2E436F6C6F720707636C614E756C6C0748697454657374080A53697A652E57
+          696474680500000000000000C906400B53697A652E4865696768740500000000
+          0000C08708401453697A652E506C6174666F726D44656661756C74080B537472
+          6F6B652E4B696E6407044E6F6E65000C5442727573684F626A65637400095374
+          796C654E616D65060864726F706C696E650B42727573682E436F6C6F72070978
+          4646434343434343000000}
+      end>
+    Left = 512
+    Top = 160
+  end
+end

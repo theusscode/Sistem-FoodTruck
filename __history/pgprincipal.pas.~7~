@@ -1,0 +1,45 @@
+unit pgprincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.MultiView, FMX.Objects, FMX.StdCtrls;
+
+type
+  TForm_tl1 = class(TForm)
+    MultiView: TMultiView;
+    StyleBook1: TStyleBook;
+    Rectanglebar: TRectangle;
+    Btn_master: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    Rotina: TSpeedButton;
+    Image1: TImage;
+    procedure MultiViewStartHiding(Sender: TObject);
+    procedure MultiViewStartShowing(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_tl1: TForm_tl1;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm_tl1.MultiViewStartHiding(Sender: TObject);
+begin
+    Rectanglebar.Visible := false;
+end;
+
+procedure TForm_tl1.MultiViewStartShowing(Sender: TObject);
+begin
+       Rectanglebar.Visible := true;
+end;
+
+end.
